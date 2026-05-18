@@ -72,7 +72,7 @@
 
 #### 漏斗分析结果可视化
 
-![user_behaviour_funnel](images\user_behaviour_funnel.png)
+![user_behaviour_funnel](images/user_behaviour_funnel.png)
 
 #### 漏斗分析结论：
 
@@ -86,7 +86,7 @@
 
 通过按星期 (`weekday`) 和行为类型 (`behavior_type`) 分组，统计了不同行为在一周内的发生次数。
 
-![weekday_behavior_sns_plot](images\weekday_behavior_sns_plot.png)
+![weekday_behavior_sns_plot](images/weekday_behavior_sns_plot.png)
 
 **行为类型变化趋势结论**：所有用户行为在**周末（周六、周日）显著增加**，其中浏览量 (pv) 在周末激增最为明显。工作日（周一至周五）的行为次数相对平稳，略有波动。
 
@@ -94,7 +94,7 @@
 
 以每个小时（hour）为维度，统计每小时活跃人数
 
-![user_activity_analysis](images\user_activity_analysis.png)
+![user_activity_analysis](images/user_activity_analysis.png)
 
 **活跃人数时段趋势结论**：上午每小时浏览人数逐步上升并在中午时段达到峰顶，然后开始下降并在傍晚时分达到峰谷，夜间活跃人数再次上升，整体成波浪型。
 
@@ -102,7 +102,7 @@
 
 统计每日/每周用户留存率。
 
-![user_retention_analysis](images\user_retention_analysis.png)
+![user_retention_analysis](images/user_retention_analysis.png)
 
 **用户留存率情况结论**：14日留存曲线整体呈下降趋势，首周留存约74%-78%，8日降至48%；周留存次周约88%。
 
@@ -110,7 +110,7 @@
 
 加购未付款是用户行为路径中，提升平台gmv的一个重要环节，探讨加购未付款的情况和原因以为业务方向提供支持
 
-![cart_no_buy](images\cart_no_buy.png)
+![cart_no_buy](images/cart_no_buy.png)
 
 **加购未付款情况结论**：大约1/3的加购存在付款环节流失，处于行业平均水平。
 
@@ -122,7 +122,7 @@ RFM 模型通过三个维度评估用户价值：
 - **Frequency (F)**: 用户在统计周期内的消费次数。
 - **Monetary (M)**: 用户在统计周期内的消费总金额 (注：本数据集中无金额信息，因此只进行 RF 分析)。
 
-![rfm_user_segment](images\rfm_user_segment.png)
+![rfm_user_segment](images/rfm_user_segment.png)
 
 **rfm模型分层结论**：
 
