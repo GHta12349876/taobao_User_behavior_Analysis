@@ -43,6 +43,24 @@ streamlit run app.py
 
 ---
 
+## 🎬 项目演示
+
+### 演示视频
+
+<video src="demo/demo.mp4" controls width="100%"></video>
+
+> 💡 如果视频无法在线播放，可点击下载查看：[demo/demo.mp4](demo/demo.mp4)
+
+### 看板截图
+
+![看板截图 - 关键指标与转化漏斗](demo/P_2026-06-08_1.png)
+
+![看板截图 - 行为趋势与活跃分布](demo/P_2026-06-08_2.png)
+
+![看板截图 - RFM用户分层](demo/P_2026-06-08_3.png)
+
+---
+
 ## 数据来源与描述
 
 - **数据来源**: `UserBehavior.csv` 文件。
