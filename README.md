@@ -44,13 +44,6 @@ streamlit run app.py
 ---
 
 ## 🎬 项目演示
-
-### 演示视频
-
-<video src="demo/demo.mp4" controls width="100%"></video>
-
-> 💡 如果视频无法在线播放，可点击下载查看：[demo/demo.mp4](demo/demo.mp4)
-
 ### 看板截图
 
 ![看板截图 - 关键指标与转化漏斗](demo/P_2026-06-08_1.png)
