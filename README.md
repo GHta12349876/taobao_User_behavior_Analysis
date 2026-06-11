@@ -44,6 +44,11 @@ streamlit run app.py
 ---
 
 ## 🎬 项目演示
+
+### 在线演示视频
+
+欢迎观看在线演示视频[User Behavior Analysis and Decision-Making System](https://github.com/user-attachments/assets/3f76ac63-abe2-4c75-97f7-2c8d6c1ff693)，下载：[taobao_demo.mp4](demo/taobao_demo.mp4)
+
 ### 看板截图
 
 ![看板截图 - 关键指标与转化漏斗](demo/P_2026-06-08_1.png)
