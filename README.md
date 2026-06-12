@@ -73,7 +73,7 @@ taobao_User_behavior_Analysis/
 
 ### 在线演示视频
 
-欢迎观看在线演示视频[User Behavior Analysis and Decision-Making System](https://github.com/user-attachments/assets/3f76ac63-abe2-4c75-97f7-2c8d6c1ff693)，下载：[taobao_demo.mp4](demo/taobao_demo.mp4)
+欢迎观看在线演示视频[User Behavior Analysis and Decision-Making System](https://github.com/user-attachments/assets/3f76ac63-abe2-4c75-97f7-2c8d6c1ff693)，注：由于后期重构了项目结构，所以演示视频的启动代码应改为`streamlit run src/app.py`
 
 ### 看板截图
 
