@@ -22,10 +22,36 @@ pip install -r requirements.txt
 
 3. 启动应用：
 ```bash
-streamlit run app.py
+streamlit run src/app.py
 ```
 
 4. 在浏览器中打开 http://localhost:8501
+
+### 项目结构
+
+```
+taobao_User_behavior_Analysis/
+├── src/                    # 源代码目录
+│   ├── __init__.py
+│   ├── app.py             # Streamlit主应用
+│   ├── data_loader.py     # 数据加载与清洗模块
+│   ├── rfm_engine.py      # RFM用户分层引擎
+│   ├── visuals.py         # 可视化图表模块
+│   └── ai_insights.py     # AI业务洞察模块
+├── tests/                  # 测试文件目录
+│   └── test_app.py        # 单元测试脚本
+├── docs/                   # 文档目录
+│   ├── DEPLOYMENT.md      # 部署指南
+│   └── OPTIMIZATION_SUMMARY.md  # 优化总结
+├── demo/                   # 演示资源目录
+├── images/                 # 分析报告图片目录
+├── assets/                 # 静态资源目录
+├── requirements.txt        # Python依赖
+├── .gitignore             # Git忽略配置
+└── UserBehavior.csv       # 数据文件（需自行下载）
+```
+
+**说明**：核心代码位于 `src/` 目录，测试文件在 `tests/`，文档在 `docs/`，保持清晰的项目结构。
 
 ### 部署到云端
 

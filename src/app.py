@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-from data_loader import load_raw_data, filter_and_clean_data
-from rfm_engine import calculate_rfm
-from visuals import plot_funnel_chart, plot_weekly_trend, plot_hourly_activity, plot_rfm_distribution
-from ai_insights import generate_basic_insights
+from src.data_loader import load_raw_data, filter_and_clean_data
+from src.rfm_engine import calculate_rfm
+from src.visuals import plot_funnel_chart, plot_weekly_trend, plot_hourly_activity, plot_rfm_distribution
+from src.ai_insights import generate_basic_insights
 
 # Page Configuration
 st.set_page_config(

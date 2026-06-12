@@ -2,17 +2,21 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime
+import os
 
 @st.cache_data
-def load_raw_data(file_path: str = "UserBehavior.csv", nrows: int = 100000) -> pd.DataFrame:
+def load_raw_data(file_path: str = None, nrows: int = 100000) -> pd.DataFrame:
     """
     Load raw UserBehavior dataset (cached).
     For demo purposes, reads only the first `nrows` rows to avoid memory issues.
     
     Args:
-        file_path: Path to the CSV file
+        file_path: Path to the CSV file (defaults to ../UserBehavior.csv)
         nrows: Number of rows to read (default 100,000 for demo)
     """
+    if file_path is None:
+        # Default path: go up one level from src/ to project root
+        file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "UserBehavior.csv")
     try:
         # Read only the first `nrows` rows for demo purposes
         df = pd.read_csv(file_path, header=None, 

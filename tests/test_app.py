@@ -25,21 +25,21 @@ def test_imports():
         return False
 
     try:
-        from data_loader import load_raw_data, filter_and_clean_data
+        from src.data_loader import load_raw_data, filter_and_clean_data
         print("✓ Data loader module imported")
     except ImportError as e:
         print(f"✗ Failed to import data_loader: {e}")
         return False
 
     try:
-        from rfm_engine import calculate_rfm
+        from src.rfm_engine import calculate_rfm
         print("✓ RFM engine module imported")
     except ImportError as e:
         print(f"✗ Failed to import rfm_engine: {e}")
         return False
 
     try:
-        from visuals import (
+        from src.visuals import (
             plot_funnel_chart,
             plot_weekly_trend,
             plot_hourly_activity,
@@ -51,7 +51,7 @@ def test_imports():
         return False
 
     try:
-        from ai_insights import generate_basic_insights
+        from src.ai_insights import generate_basic_insights
         print("✓ AI insights module imported")
     except ImportError as e:
         print(f"✗ Failed to import ai_insights: {e}")
@@ -64,7 +64,7 @@ def test_rfm_engine():
     """Test RFM calculation with sample data."""
     print("\nTesting RFM engine...")
     try:
-        from rfm_engine import calculate_rfm
+        from src.rfm_engine import calculate_rfm
         
         # Create sample data
         sample_data = pd.DataFrame(
@@ -113,7 +113,7 @@ def test_visuals():
     """Test visualization functions with sample data."""
     print("\nTesting visualization functions...")
     try:
-        from visuals import (
+        from src.visuals import (
             plot_funnel_chart,
             plot_weekly_trend,
             plot_hourly_activity,

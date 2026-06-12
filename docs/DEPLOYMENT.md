@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 3. 启动应用：
 ```bash
-streamlit run app.py
+streamlit run src/app.py
 ```
 
 4. 在浏览器中打开 http://localhost:8501
@@ -42,17 +42,18 @@ git push
 1. 在 Hugging Face Spaces 创建新 Space（选择 Streamlit 模板）
 2. 点击 "Files" 标签
 3. 上传以下文件：
-   - `app.py`
-   - `data_loader.py`
-   - `rfm_engine.py`
-   - `visuals.py`
-   - `ai_insights.py`
+   - `src/app.py`
+   - `src/data_loader.py`
+   - `src/rfm_engine.py`
+   - `src/visuals.py`
+   - `src/ai_insights.py`
+   - `src/__init__.py`
    - `requirements.txt`
    - `Procfile`
    - `.streamlit/config.toml`
    - `README.md`
 
-**注意：** 由于数据文件较大，建议使用较小的演示数据集或修改 `data_loader.py` 中的 `nrows` 参数。
+**注意：** 由于数据文件较大，建议使用较小的演示数据集或修改 `src/data_loader.py` 中的 `nrows` 参数。
 
 ## 部署到 Streamlit Cloud
 
@@ -62,7 +63,7 @@ git push
 
 3. 连接你的 GitHub 账号并选择仓库
 
-4. 设置主文件为 `app.py`
+4. 设置主文件为 `src/app.py`
 
 5. 点击 "Deploy!"
 
